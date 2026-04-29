@@ -4,11 +4,11 @@ Merci de vous intéresser au projet !
 
 Ce repo n'est pas un projet open source classique : il accompagne une **série éditoriale** sur le blog [surlesnuages.fr](https://surlesnuages.fr). Cette particularité change un peu la façon dont j'accepte les contributions, d'où ces quelques notes.
 
-## Avant tout : ce repo est d'un côté éditorial, de l'autre l'hébergement d'une suite d'outils d'administration PowerShell sous forme du module SLNKit
+## Avant tout : ce repo est d'un côté éditorial, de l'autre l'hébergement d'une suite d'outils d'administration PowerShell sous forme du module surlesnuages.toolkit
 
 Le contenu de ce repo est lié aux articles publiés. Concrètement :
 
-- Le module `SLN.Toolkit/` évolue **au rythme des articles**. Il n'est pas génant d'y ajouter un fonction qui ne correspond pas à un article, mais il faut que celle-ci soit correctement documentées et respectent les bonnes pratiques.
+- Le module `surlesnuages.toolkit/` évolue **au rythme des articles**. Il n'est pas génant d'y ajouter un fonction qui ne correspond pas à un article, mais il faut que celle-ci soit correctement documentées et respectent les bonnes pratiques.
 - Le dossier `articles/` contient du **support pédagogique daté**, parfois volontairement imparfait. Ce code n'est **pas** destiné à être amélioré : il illustre des points spécifiques d'un article. N'allez pas ouvrir une issue pour dire "Le premier script d'exemple de l'article sur la documentation des scripts est fouilli et incompréhensible 🥺" : c'est normal ! Par contre, si il y a un problème sur un script qui est censé représenter les bonnes pratiques et le "modèle" de ce qui est à faire, n'hésitez surtout pas !
 - Le repo et le blog se renforcent mutuellement. Une modification du repo peut nécessiter une mise à jour d'article, et inversement.
 
