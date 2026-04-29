@@ -25,21 +25,37 @@ surlesnuages-toolkit/
 │   └── SurLesNuages.Toolkit/             # Module principal (fonctions exportées)
 │       ├── SurLesNuages.Toolkit.psd1
 │       ├── SurLesNuages.Toolkit.psm1
-│       ├── Public/              # Fonctions exportées
-│       └── Private/             # Helpers internes
-├── scripts/                     # Utilitaires s'appuyant sur les modules 
-├── articles/                    # Supports pédagogiques par article
-│   └── 01-documenter-scripts/
-│       ├── README.md            # Contexte de l'article
-│       ├── New-TestSandbox.ps1  # Génère une arborescence de test
-│       ├── show-tree-v1.ps1     # Volontairement imparfait
-│       ├── show-tree-v2.ps1     # Version corrigée
-│       └── ...
-├── tests/                       # Suite Pester (à partir de l'article 4)
-├── docs/                        # Doc générée (à partir de l'article 3)
+│       ├── Public/                       # Fonctions exportées
+│       └── Private/                      # Helpers internes
+├── scripts/                              # Utilitaires s'appuyant sur les modules
+├── articles/                             # Supports pédagogiques par article
+│   ├── serie-1-bonnes-pratiques/
+│   │   ├── 01-documenter-scripts/
+│   │   │   ├── README.md                 # Contexte de l'article
+│   │   │   ├── New-TestSandbox.ps1       # Génère une arborescence de test
+│   │   │   ├── show-tree-v1.ps1          # Volontairement imparfait
+│   │   │   ├── show-tree-v2.ps1          # Version corrigée
+│   │   │   └── ...
+│   │   ├── 02-gestion-erreurs/           # try/catch et au-delà
+│   │   ├── 03-parametrage-avance/        # ParameterSets, pipeline, validation, completers
+│   │   ├── 04-logging-observabilite/
+│   │   ├── 05-performance-debugging/
+│   │   └── interlude-module-graph/
+│   ├── serie-2-industrialiser/
+│   │   ├── 01-creation-modules/
+│   │   ├── 02-pester-v5/                 # ← apparition de tests/
+│   │   ├── 03-securiser-scripts/         # secrets, credentials, certificats
+│   │   └── 04-cicd-pipeline/             # ← apparition de .github/workflows/
+│   └── serie-3-exploiter-prod/
+│       ├── 01-decouper-module/           # livrer des morceaux à des clients
+│       ├── 02-ordonnancement/            # Task Scheduler → ordonnanceurs entreprise
+│       ├── interlude-pieges-powershell/  # guide de survie scripts de prod
+│       └── interlude-cheatsheet/
+├── tests/                                # Suite Pester (à partir de Série 2 / P2)
+├── docs/                                 # Doc générée — PlatyPS (à partir de Série 2 / P1)
 ├── .github/
-│   └── workflows/               # Pipeline CI/CD (à partir de l'article 6)
-└── README.md                    # Ce fichier
+│   └── workflows/                        # Pipeline CI/CD (à partir de Série 2 / P4)
+└── README.md                             # Ce fichier
 ```
 
 > [!NOTE]
