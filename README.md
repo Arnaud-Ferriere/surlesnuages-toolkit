@@ -7,13 +7,14 @@ Concrètement, vous trouverez :
 
 - Un module **SLN.Toolkit** : fonctions réutilisables pour les tâches courantes M365 / Entra ID / Active Directory etc
 - Des **scripts utilitaires** appelant des fonctions du module
-- Le **support pédagogique** des articles : versions intermédiaires, exemples volontairement imparfaits utilisés pour illustrer les bonnes pratiques
+- Le **support pédagogique** des articles : versions intermédiaires, exemples volontairement imparfaits utilisés pour illustrer les bonnes pratiques, et versions finales 
 - À terme : tests Pester / PSScriptAnalyzer, doc générée par PlatyPS, pipeline GitHub Actions 
 
 ## Pour qui ?
 
 - Admins M365 / sysadmin Windows qui scriptent en PowerShell régulièrement
 - Devs/SREs qui touchent à Entra ID, Microsoft Graph, ou l'écosystème Microsoft cloud
+- Etudiants qui s'intéressent au développement PowerShell et souhaitent prendre de bonnes habitudes rapidement
 - Toute personne qui veut voir un module PowerShell évoluer **en public**, avec son histoire 
 
 ## Structure du repo
