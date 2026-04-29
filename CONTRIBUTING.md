@@ -28,11 +28,11 @@ Si un script ne marche pas comme annoncé (même pour les exemples si ils ne fon
 
 ### Suggestions d'améliorations
 
-Pour proposer une amélioration sur le module ou un script, **ouvre une issue d'abord**, ne fais pas de PR directe. On discute de l'approche, et si on s'accorde, tu peux soumettre une PR ensuite. Cette étape évite des PR rejetées pour incompatibilité avec la prochaine série éditoriale.
+Pour proposer une amélioration sur le module ou un script, **ouvrez une issue d'abord**, ne faite pas de PR directe. On discute de l'approche, et si on s'accorde, vous pouvez soumettre une PR ensuite. Cette étape évite des PR rejetées pour incompatibilité avec la prochaine série éditoriale.
 
 ### Suggestion de sujet d'article
 
-Il manque quelque chose dans une de mes séries ? Malgré mes recherches, c'est tout à fait possible ! Ouvez une issue **sur le Repo dédié https://github.com/Arnaud-Ferriere/SurLesNuages** avec le label `idée article`. 
+Il manque quelque chose dans une de mes séries ? Malgré mes recherches, c'est tout à fait possible ! Ouvez une issue **sur le Repo dédié https://github.com/Arnaud-Ferriere/SurLesNuages** avec le label `erreur article`. 
 Je ne peux pas faire de promesse de traitement (j'ai un planning éditorial perso et bien entendu une vie à côté), mais les propositions sont prises en compte et appréciées.
 
 ### Corrections de typo / clarifications
@@ -70,11 +70,11 @@ Pour les détails, voir les articles qui pose les bases de toutes ces convention
 
 ## Tests
 
-À partir de l'article 4, le repo aura une suite Pester. Les contributions de code devront alors inclure des tests.
+À partir de l'article 2 de la deuxième série, le repo aura une suite Pester. Les contributions de code devront alors inclure des tests.
 
 ## Code de conduite
 
-Soyons respectueux dans les échanges. C'est un repo perso construit sur du temps libre, je réponds quand je peux. 
+Soyons respectueux dans les échanges. C'est un repo perso construit sur du temps libre, je réponds quand je le peux. 
 Une issue qui reste ouverte sans réponse pendant quelques jours n'est pas un manque d'intérêt, je ferais de mon mieux pour faire au plus vite :)
 
 Il n'y aura pas de tolérance pour le harcèlement, les attaques personnelles, ou les commentaires désobligeants. Une issue ou PR qui dérape sera fermée sans discussion.
