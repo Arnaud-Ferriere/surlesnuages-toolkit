@@ -72,6 +72,6 @@ Le texte complet de la license est dans le fichier [LICENSE](LICENSE).
 ## Liens
 
 - Blog : [surlesnuages.fr](https://surlesnuages.fr/)
-- Articles connexes : tag [`PowerShell`](https://surlesnuages.fr/tags/PowerShell) sur le blog
+- Articles connexes : tag [`PowerShell`](https://surlesnuages.fr/articles/#PowerShell) sur le blog
 - Issues : utilisez l'onglet [Issues](https://github.com/%3Cton-handle%3E/toolkit-surlesnuages/issues) de ce repo
 - Repo dédié du Blog : <https://github.com/Arnaud-Ferriere/surlesnuages/>
