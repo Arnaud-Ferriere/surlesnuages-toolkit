@@ -68,11 +68,6 @@ surlesnuages-toolkit/
 |#|Article|Apport au toolkit|Statut|
 |---|---|---|---|
 |1|Documenter ses scripts PowerShell|Documentation des scripts PowerShell, premiers exemples dans `articles/01-documenter-scripts/`|⏳ À venir|
-|2|Microsoft Graph en PowerShell|Helpers d'authentification, wrapper de pagination, gestion du throttling|⏳ À venir|
-|3|Créer un module PowerShell propre|Packaging dans `SurLesNuages.Toolkit/`, manifest, exports, doc PlatyPS|⏳ À venir|
-|4|Tester avec Pester v5|Suite de tests dans `tests/`|⏳ À venir|
-|5|Sécuriser ses scripts|Intégration `SecretManagement`, gestion des credentials|⏳ À venir|
-|6|CI/CD avec GitHub Actions|Pipeline complète : build, tests, publication PSGallery|⏳ À venir|
 
 ## Contribuer
 
